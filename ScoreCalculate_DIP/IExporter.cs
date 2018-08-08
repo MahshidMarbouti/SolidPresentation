@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using ScoreCalculator_DIP;
 
 namespace ScoreCalculate_DIP
 {

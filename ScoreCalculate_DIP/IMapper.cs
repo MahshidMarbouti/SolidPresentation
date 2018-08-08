@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using ScoreCalculate_DIP;
 
-namespace ScoreCalculator_DIP
+namespace ScoreCalculate_DIP
 {
     public interface IMapper
     {

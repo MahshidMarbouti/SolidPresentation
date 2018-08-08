@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Net.Mime;
-using ScoreCalculator_DIP;
 
 namespace ScoreCalculate_DIP
 {

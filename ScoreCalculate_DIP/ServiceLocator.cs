@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using ScoreCalculator_DIP;
 
 namespace ScoreCalculate_DIP
 {
     public static class ServiceLocator
     {
-        static Dictionary<Type,Type> TypeMapper = new Dictionary<Type,Type>();
+        static readonly Dictionary<Type,Type> TypeMapper = new Dictionary<Type,Type>();
 
         public static void RegisterAll()
         {

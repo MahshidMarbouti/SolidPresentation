@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using ScoreCalculator_DIP;
 
 namespace ScoreCalculate_DIP
 {

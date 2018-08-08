@@ -42,6 +42,7 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="ProgramRefactored.cs" t="Include" />
         <e p="ScoreCalculate_DIP.csproj" t="IncludeRecursive" />
         <e p="ScoreCalculator.cs" t="Include" />
         <e p="ServiceLocator.cs" t="Include" />

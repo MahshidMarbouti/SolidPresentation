@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net.Mime;
+using ScoreCalculator_DIP;
 
 namespace ScoreCalculate_DIP
 {
@@ -6,7 +8,17 @@ namespace ScoreCalculate_DIP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Reading students numbers:");
+            IMapper mapper = new Mapper();
+            ISplitter split = new SplittByComma();
+            IExporter export = new Exporter();
+            IReader reader = new ReadTextFile();
+            
+            ScoreCalculator sc = new ScoreCalculator(reader, mapper, export, split);
+            sc.Calculate();
+            
+            Console.WriteLine("Finished ...");
+            Console.ReadKey();
         }
     }
 }

@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b873f6b4-d795-4f8b-9633-096215ccb9ab" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolidPresentation/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolidPresentation/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolidPresentation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolidPresentation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SolidPresentation/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoreCalculate_DIP/IReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoreCalculate_DIP/ISplitter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoreCalculate_DIP/ServiceLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoreCalculator_ISP/ISplitter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/obj/Base.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Base/obj/Base.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/obj/Base.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Base/obj/Base.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/obj/Debug/netcoreapp2.1/Base.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Base/obj/Debug/netcoreapp2.1/Base.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculate_DIP/IDataProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculate_DIP/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculate_DIP/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculate_DIP/ScoreCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculate_DIP/ScoreCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculate_DIP/obj/Debug/netcoreapp2.1/ScoreCalculate_DIP.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculate_DIP/obj/Debug/netcoreapp2.1/ScoreCalculate_DIP.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculate_DIP/obj/ScoreCalculate_DIP.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculate_DIP/obj/ScoreCalculate_DIP.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculate_DIP/obj/ScoreCalculate_DIP.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculate_DIP/obj/ScoreCalculate_DIP.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator/obj/Debug/netcoreapp2.1/ScoreCalculator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator/obj/Debug/netcoreapp2.1/ScoreCalculator.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator/obj/ScoreCalculator.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator/obj/ScoreCalculator.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator/obj/ScoreCalculator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator/obj/ScoreCalculator.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_ISP/DataProviderRefactored.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_ISP/IDataProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator_ISP/IReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_ISP/ScoreCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator_ISP/ScoreCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_ISP/obj/Debug/netcoreapp2.1/ScoreCalculator_ISP.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator_ISP/obj/Debug/netcoreapp2.1/ScoreCalculator_ISP.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_ISP/obj/ScoreCalculator_ISP.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator_ISP/obj/ScoreCalculator_ISP.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_ISP/obj/ScoreCalculator_ISP.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator_ISP/obj/ScoreCalculator_ISP.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_LSP/obj/Debug/netcoreapp2.1/ScoreCalculator_LSP.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator_LSP/obj/Debug/netcoreapp2.1/ScoreCalculator_LSP.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_LSP/obj/ScoreCalculator_LSP.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator_LSP/obj/ScoreCalculator_LSP.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_LSP/obj/ScoreCalculator_LSP.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator_LSP/obj/ScoreCalculator_LSP.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_OCP/obj/Debug/netcoreapp2.1/ScoreCalculator_OCP.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator_OCP/obj/Debug/netcoreapp2.1/ScoreCalculator_OCP.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_OCP/obj/ScoreCalculator_OCP.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator_OCP/obj/ScoreCalculator_OCP.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCalculator_OCP/obj/ScoreCalculator_OCP.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCalculator_OCP/obj/ScoreCalculator_OCP.csproj.nuget.g.props" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ScoreCalculator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/ScoreCalculator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <marker date="1533700572978" expanded="true" signature="64:901" ph="{...}" />
+                <marker date="1533700572978" expanded="true" signature="166:899" ph="{...}" />
+                <marker date="1533700572978" expanded="true" signature="206:893" ph="{...}" />
+                <marker date="1533700572978" expanded="true" signature="606:782" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/Student.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1533611756164" expanded="false" signature="6:52" ph="..." />
+                <marker date="1533611756164" expanded="true" signature="83:343" ph="{...}" />
+                <marker date="1533611756164" expanded="true" signature="110:341" ph="{...}" />
+                <marker date="1533611756164" expanded="true" signature="278:335" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISplitter.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/ISplitter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <marker date="1533699864797" expanded="true" signature="29:616" ph="{...}" />
+                <marker date="1533699864797" expanded="true" signature="62:111" ph="{...}" />
+                <marker date="1533699864797" expanded="true" signature="155:362" ph="{...}" />
+                <marker date="1533699864797" expanded="true" signature="213:355" ph="{...}" />
+                <marker date="1533699864797" expanded="true" signature="411:609" ph="{...}" />
+                <marker date="1533699864797" expanded="true" signature="460:603" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IReader.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/IReader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding>
+                <marker date="1533700052553" expanded="true" signature="47:487" ph="{...}" />
+                <marker date="1533700052553" expanded="true" signature="78:141" ph="{...}" />
+                <marker date="1533700052553" expanded="true" signature="186:469" ph="{...}" />
+                <marker date="1533700052553" expanded="true" signature="241:463" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+              <folding>
+                <marker date="1533701197346" expanded="true" signature="6:36" ph="..." />
+                <marker date="1533701197346" expanded="true" signature="93:654" ph="{...}" />
+                <marker date="1533701197346" expanded="true" signature="113:652" ph="{...}" />
+                <marker date="1533701197346" expanded="true" signature="159:646" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceLocator.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/ServiceLocator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <marker date="1533700876916" expanded="true" signature="6:64" ph="..." />
+                <marker date="1533700876916" expanded="true" signature="121:708" ph="{...}" />
+                <marker date="1533700876916" expanded="true" signature="162:706" ph="{...}" />
+                <marker date="1533700876916" expanded="true" signature="289:574" ph="{...}" />
+                <marker date="1533700876916" expanded="true" signature="620:700" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Base/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <marker date="1533607765839" expanded="false" signature="6:31" ph="..." />
+                <marker date="1533607765839" expanded="true" signature="47:378" ph="{...}" />
+                <marker date="1533607765839" expanded="true" signature="67:376" ph="{...}" />
+                <marker date="1533607765839" expanded="true" signature="113:370" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScoreCalculator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/ScoreCalculator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+              <folding>
+                <marker date="1533700419208" expanded="true" signature="6:60" ph="..." />
+                <marker date="1533700419208" expanded="true" signature="90:1158" ph="{...}" />
+                <marker date="1533700419208" expanded="true" signature="192:1156" ph="{...}" />
+                <marker date="1533700419208" expanded="true" signature="478:626" ph="{...}" />
+                <marker date="1533700419208" expanded="true" signature="658:1150" ph="{...}" />
+                <marker date="1533700419208" expanded="true" signature="903:1081" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IReader.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/IReader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding>
+                <marker date="1533700572981" expanded="true" signature="46:486" ph="{...}" />
+                <marker date="1533700572981" expanded="true" signature="77:140" ph="{...}" />
+                <marker date="1533700572981" expanded="true" signature="185:468" ph="{...}" />
+                <marker date="1533700572981" expanded="true" signature="240:462" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISplitter.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/ISplitter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+              <folding>
+                <marker date="1533700572975" expanded="true" signature="28:615" ph="{...}" />
+                <marker date="1533700572975" expanded="true" signature="61:110" ph="{...}" />
+                <marker date="1533700572975" expanded="true" signature="154:361" ph="{...}" />
+                <marker date="1533700572975" expanded="true" signature="212:354" ph="{...}" />
+                <marker date="1533700572975" expanded="true" signature="410:608" ph="{...}" />
+                <marker date="1533700572975" expanded="true" signature="459:602" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ScoreCalculator_ISP/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculator_ISP/ISplitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Base/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculator_ISP/IReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculate_DIP/IReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculator_ISP/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculate_DIP/ISplitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculator_ISP/ScoreCalculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculator_ISP/IExporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculator_OCP/DataProviderRefactored.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculator_OCP/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Student.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculate_DIP/ServiceLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculate_DIP/IMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculator_LSP/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculate_DIP/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculate_DIP/ScoreCalculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculate_DIP/IExporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreCalculator_ISP/IMapper.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ScoreCalculator_ISP/IDataProvider.cs" />
+        <option value="$PROJECT_DIR$/ScoreCalculator_ISP/DataProviderRefactored.cs" />
+        <option value="$PROJECT_DIR$/ScoreCalculator_ISP/ReaderByUnderScore.cs" />
+        <option value="$PROJECT_DIR$/ScoreCalculator_ISP/ReaderByComma.cs" />
+        <option value="$PROJECT_DIR$/ScoreCalculator_ISP/ISplitter.cs" />
+        <option value="$PROJECT_DIR$/ScoreCalculator_ISP/IReader.cs" />
+        <option value="$PROJECT_DIR$/ScoreCalculator_ISP/ScoreCalculator.cs" />
+        <option value="$PROJECT_DIR$/ScoreCalculate_DIP/IReader.cs" />
+        <option value="$PROJECT_DIR$/ScoreCalculate_DIP/ISplitter.cs" />
+        <option value="$PROJECT_DIR$/ScoreCalculate_DIP/ScoreCalculator.cs" />
+        <option value="$PROJECT_DIR$/ScoreCalculate_DIP/ServiceLocator.cs" />
+        <option value="$PROJECT_DIR$/ScoreCalculate_DIP/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="16" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPresentation (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPresentation (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="1.SRP" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPresentation (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="2.OCP" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPresentation (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="2.OCP" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ScoreCalculator_OCP" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPresentation (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="3.LSP" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPresentation (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="3.LSP" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ScoreCalculator_LSP" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPresentation (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4.ISP" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPresentation (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4.ISP" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ScoreCalculator_ISP" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPresentation (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="5.DIP" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPresentation (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="5.DIP" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ScoreCalculate_DIP" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPresentation (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="BaseProject" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b873f6b4-d795-4f8b-9633-096215ccb9ab" name="Default" comment="" />
+      <created>1533699077600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533699077600</updated>
+      <workItem from="1533699081388" duration="2126000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2126000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="16" y="23" width="1400" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/ReaderByUnderScore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/ReaderByComma.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/IExporter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1533611773768" expanded="false" signature="6:69" ph="..." />
+            <marker date="1533611773768" expanded="true" signature="100:759" ph="{...}" />
+            <marker date="1533611773768" expanded="true" signature="133:196" ph="{...}" />
+            <marker date="1533611773768" expanded="true" signature="235:757" ph="{...}" />
+            <marker date="1533611773768" expanded="true" signature="298:751" ph="{...}" />
+            <marker date="1533611773768" expanded="true" signature="448:614" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/IMapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1533611747981" expanded="true" signature="64:724" ph="{...}" />
+            <marker date="1533611747981" expanded="true" signature="95:291" ph="{...}" />
+            <marker date="1533611747981" expanded="true" signature="110:240" ph="///  ... " />
+            <marker date="1533611747981" expanded="true" signature="319:722" ph="{...}" />
+            <marker date="1533611747981" expanded="true" signature="376:711" ph="{...}" />
+            <marker date="1533611747981" expanded="true" signature="591:678" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_OCP/DataProviderRefactored.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1533591930142" expanded="false" signature="6:50" ph="..." />
+            <marker date="1533591930142" expanded="true" signature="81:1161" ph="{...}" />
+            <marker date="1533591930142" expanded="true" signature="136:614" ph="{...}" />
+            <marker date="1533591930142" expanded="true" signature="191:413" ph="{...}" />
+            <marker date="1533591930142" expanded="true" signature="465:608" ph="{...}" />
+            <marker date="1533591930142" expanded="true" signature="682:1159" ph="{...}" />
+            <marker date="1533591930142" expanded="true" signature="737:959" ph="{...}" />
+            <marker date="1533591930142" expanded="true" signature="1011:1153" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/IMapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1533612001171" expanded="false" signature="6:59" ph="..." />
+            <marker date="1533612001171" expanded="true" signature="90:750" ph="{...}" />
+            <marker date="1533612001171" expanded="true" signature="121:317" ph="{...}" />
+            <marker date="1533612001171" expanded="true" signature="136:266" ph="///  ... " />
+            <marker date="1533612001171" expanded="true" signature="345:748" ph="{...}" />
+            <marker date="1533612001171" expanded="true" signature="402:737" ph="{...}" />
+            <marker date="1533612001171" expanded="true" signature="617:704" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/IExporter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1533612019152" expanded="false" signature="6:96" ph="..." />
+            <marker date="1533612019152" expanded="true" signature="126:785" ph="{...}" />
+            <marker date="1533612019152" expanded="true" signature="159:222" ph="{...}" />
+            <marker date="1533612019152" expanded="true" signature="261:783" ph="{...}" />
+            <marker date="1533612019152" expanded="true" signature="324:777" ph="{...}" />
+            <marker date="1533612019152" expanded="true" signature="474:640" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_LSP/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1533591179668" expanded="true" signature="44:185" ph="{...}" />
+            <marker date="1533591179668" expanded="true" signature="64:183" ph="{...}" />
+            <marker date="1533591179668" expanded="true" signature="110:177" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_OCP/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <marker date="1533592469688" expanded="true" signature="44:516" ph="{...}" />
+            <marker date="1533592469688" expanded="true" signature="64:514" ph="{...}" />
+            <marker date="1533592469688" expanded="true" signature="110:508" ph="{...}" />
+            <marker date="1533592469688" expanded="true" signature="303:390" ph="{...}" />
+            <marker date="1533592469688" expanded="true" signature="407:498" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Student.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1533597275657" expanded="true" signature="44:185" ph="{...}" />
+            <marker date="1533597275657" expanded="true" signature="64:183" ph="{...}" />
+            <marker date="1533597275657" expanded="true" signature="110:177" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/ScoreCalculator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1533700572978" expanded="true" signature="64:901" ph="{...}" />
+            <marker date="1533700572978" expanded="true" signature="166:899" ph="{...}" />
+            <marker date="1533700572978" expanded="true" signature="206:893" ph="{...}" />
+            <marker date="1533700572978" expanded="true" signature="606:782" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/Student.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1533611756164" expanded="false" signature="6:52" ph="..." />
+            <marker date="1533611756164" expanded="true" signature="83:343" ph="{...}" />
+            <marker date="1533611756164" expanded="true" signature="110:341" ph="{...}" />
+            <marker date="1533611756164" expanded="true" signature="278:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/ISplitter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <marker date="1533699864797" expanded="true" signature="29:616" ph="{...}" />
+            <marker date="1533699864797" expanded="true" signature="62:111" ph="{...}" />
+            <marker date="1533699864797" expanded="true" signature="155:362" ph="{...}" />
+            <marker date="1533699864797" expanded="true" signature="213:355" ph="{...}" />
+            <marker date="1533699864797" expanded="true" signature="411:609" ph="{...}" />
+            <marker date="1533699864797" expanded="true" signature="460:603" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculator_ISP/IReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <marker date="1533700052553" expanded="true" signature="47:487" ph="{...}" />
+            <marker date="1533700052553" expanded="true" signature="78:141" ph="{...}" />
+            <marker date="1533700052553" expanded="true" signature="186:469" ph="{...}" />
+            <marker date="1533700052553" expanded="true" signature="241:463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/IDataProvider.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/IReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <marker date="1533700572981" expanded="true" signature="46:486" ph="{...}" />
+            <marker date="1533700572981" expanded="true" signature="77:140" ph="{...}" />
+            <marker date="1533700572981" expanded="true" signature="185:468" ph="{...}" />
+            <marker date="1533700572981" expanded="true" signature="240:462" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/ISplitter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <marker date="1533700572975" expanded="true" signature="28:615" ph="{...}" />
+            <marker date="1533700572975" expanded="true" signature="61:110" ph="{...}" />
+            <marker date="1533700572975" expanded="true" signature="154:361" ph="{...}" />
+            <marker date="1533700572975" expanded="true" signature="212:354" ph="{...}" />
+            <marker date="1533700572975" expanded="true" signature="410:608" ph="{...}" />
+            <marker date="1533700572975" expanded="true" signature="459:602" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <marker date="1533607765839" expanded="false" signature="6:31" ph="..." />
+            <marker date="1533607765839" expanded="true" signature="47:378" ph="{...}" />
+            <marker date="1533607765839" expanded="true" signature="67:376" ph="{...}" />
+            <marker date="1533607765839" expanded="true" signature="113:370" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/ScoreCalculator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <marker date="1533700419208" expanded="true" signature="6:60" ph="..." />
+            <marker date="1533700419208" expanded="true" signature="90:1158" ph="{...}" />
+            <marker date="1533700419208" expanded="true" signature="192:1156" ph="{...}" />
+            <marker date="1533700419208" expanded="true" signature="478:626" ph="{...}" />
+            <marker date="1533700419208" expanded="true" signature="658:1150" ph="{...}" />
+            <marker date="1533700419208" expanded="true" signature="903:1081" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+          <folding>
+            <marker date="1533701197346" expanded="true" signature="6:36" ph="..." />
+            <marker date="1533701197346" expanded="true" signature="93:654" ph="{...}" />
+            <marker date="1533701197346" expanded="true" signature="113:652" ph="{...}" />
+            <marker date="1533701197346" expanded="true" signature="159:646" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreCalculate_DIP/ServiceLocator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <marker date="1533700876916" expanded="true" signature="6:64" ph="..." />
+            <marker date="1533700876916" expanded="true" signature="121:708" ph="{...}" />
+            <marker date="1533700876916" expanded="true" signature="162:706" ph="{...}" />
+            <marker date="1533700876916" expanded="true" signature="289:574" ph="{...}" />
+            <marker date="1533700876916" expanded="true" signature="620:700" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

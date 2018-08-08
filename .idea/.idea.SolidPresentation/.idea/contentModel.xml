@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_SolidPresentation.439814964.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="1.SRP" t="Include" />
+      <e p="2.OCP" t="Include" />
+      <e p="3.LSP" t="Include" />
+      <e p="4.ISP" t="Include" />
+      <e p="5.DIP" t="Include" />
+      <e p="Base" t="IncludeRecursive">
+        <e p="Base.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Base.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="SampleInput" t="Include">
+          <e p="students.txt" t="Include" />
+        </e>
+        <e p="ScoreCalculator.cs" t="Include" />
+        <e p="Student.cs" t="Include" />
+        <e p="studentsFinalScores.txt" t="Include" />
+      </e>
+      <e p="BaseProject" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ScoreCalculate_DIP" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IExporter.cs" t="Include" />
+        <e p="IMapper.cs" t="Include" />
+        <e p="IReader.cs" t="Include" />
+        <e p="ISplitter.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="ScoreCalculate_DIP.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="ScoreCalculate_DIP.csproj" t="IncludeRecursive" />
+        <e p="ScoreCalculator.cs" t="Include" />
+        <e p="ServiceLocator.cs" t="Include" />
+        <e p="Student.cs" t="Include" />
+      </e>
+      <e p="ScoreCalculator" t="IncludeRecursive">
+        <e p="0" t="Include">
+          <e p="ScoreCalculator0.cs" t="Include" />
+        </e>
+        <e p="1" t="Include">
+          <e p="IDataProvider.cs" t="Include" />
+          <e p="IExporter.cs" t="Include" />
+          <e p="IMapper.cs" t="Include" />
+          <e p="ScoreCalculator1.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="ScoreCalculator.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="SampleInput" t="Include">
+          <e p="students.txt" t="Include" />
+        </e>
+        <e p="ScoreCalculator.csproj" t="IncludeRecursive" />
+        <e p="Student.cs" t="Include" />
+      </e>
+      <e p="ScoreCalculator_ISP" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IExporter.cs" t="Include" />
+        <e p="IMapper.cs" t="Include" />
+        <e p="IReader.cs" t="Include" />
+        <e p="ISplitter.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="ScoreCalculator_ISP.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="ScoreCalculator.cs" t="Include" />
+        <e p="ScoreCalculator_ISP.csproj" t="IncludeRecursive" />
+        <e p="Student.cs" t="Include" />
+      </e>
+      <e p="ScoreCalculator_LSP" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="ScoreCalculator_LSP.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="ScoreCalculator_LSP.csproj" t="IncludeRecursive" />
+        <e p="Student.cs" t="Include" />
+      </e>
+      <e p="ScoreCalculator_OCP" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataProvider0.cs" t="Include" />
+        <e p="DataProviderRefactored.cs" t="Include" />
+        <e p="IDataProvider.cs" t="Include" />
+        <e p="IExporter.cs" t="Include" />
+        <e p="IMapper.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="ScoreCalculator_OCP.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="SampleInput" t="Include">
+          <e p="students.txt" t="Include" />
+          <e p="students_underscore.txt" t="Include" />
+        </e>
+        <e p="ScoreCalculator.cs" t="Include" />
+        <e p="ScoreCalculator_OCP.csproj" t="IncludeRecursive" />
+        <e p="Student.cs" t="Include" />
+      </e>
+      <e p="SolidPresentation.sln" t="IncludeFlat" />
+      <e p="Student.cs" t="Include" />
+    </e>
+  </component>
+</project>
